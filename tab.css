@@ -1,0 +1,47 @@
+.head{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 150px;
+	width: 100%;
+	background-color: #0a2d42;
+	z-index: 100;
+}
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+}
+.div-logo{
+	height: 100%;
+	text-align: center;
+	margin: 10px;
+	float: left;
+}
+.web-nav{
+	float: right;
+	height: 100%;
+}
+.web-nav a{
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	padding-right: 20px; 
+	padding-top: 12%;
+	display: inline-block;
+}
+
+.site-content{
+	position: absolute;
+	top: 78px;
+	width: 100%;
+}
+.box{
+  background-color:#91d1d6;
+  width: 800px;
+  border: 30px solid #497a83 ;
+  padding:150px;
+  margin: 150px;
+}

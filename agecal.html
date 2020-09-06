@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="agecal.css">
+	
+	<title>Age Calculator</title>
+	
+<body style="background-color:#f96329";> 
+	<header class="head">
+		<div class="div-logo">
+			<img src="logo.jpg" height="100px";>
+			<span class="logo-text">WDL PRACTICALS</span>
+		</div>
+		<nav class="web-nav">
+			<a href="index.html">Home</a>
+			<a href="para.html">Paragraphs</a>
+			<a href="tab.html">Tables</a>
+			<a href="list.html">List</a>
+			<a href="frames.html">Frames</a>
+			<a href="colcng.html">Color Changer</a>
+			<a href="agecal.html">Age Calculator</a>
+		</nav>
+	</header>
+	<div class="site-content">
+ <div class="bbox" >
+ 	<script language="JavaScript">
+function CalculateAge()
+{
+var birthyear = document.form1.txt.value;
+var currentyear  = new Date();
+var age   = currentyear.getFullYear();
+document.write('They are either ' + (age-birthyear)+ ' or ' + (age-birthyear - 1));
+ }
+    </script>
+        <form name=form1>
+        	<h2>
+            Enter the Birth Year
+        </h2>
+           <input type="text" name="txt" size=20 >
+           <br>
+           <input type="button" value="Calculate" onClick='CalculateAge();' >  
+        </form> 
+ </div>
+</div>
+</body>
+</html>

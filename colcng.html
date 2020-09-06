@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cl.css">
+    <title>Color Change</title>
+<body style="background-color:#90b7f3;"> 
+    <header class="head">
+        <div class="div-logo">
+            <img src="logo.jpg" height="100px";>
+            <span class="logo-text">WDL PRACTICALS</span>
+        </div>
+        <nav class="web-nav">
+            <a href="index.html">Home</a>
+            <a href="para.html">Paragraphs</a>
+            <a href="tab.html">Tables</a>
+            <a href="list.html">List</a>
+            <a href="frames.html">Frames</a>
+            <a href="colcng.html">Color Changer</a>
+            <a href="agecal.html">Age Calculator</a>
+        </nav>
+    </header>
+    
+<script>
+    var colors = ["red", "blue", "green"];
+    var colorIndex = 0;
+    function changeColor() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++; 
+    }
+</script>
+<div class="site-content">
+ <div class="box" >
+    <body id='body'>
+    <button  onclick="changeColor();"><h2>Click ME To Change The Color</h2></button>
+    </body>
+   </div>
+   </div> 
+</html

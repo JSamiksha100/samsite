@@ -1,0 +1,49 @@
+.head{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 150px;
+	width: 100%;
+	background-color: #0a2d42;
+	z-index: 100;
+}
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+}
+.div-logo{
+	height: 100%;
+	text-align: center;
+	margin: 10px;
+	float: left;
+}
+.web-nav{
+	float: right;
+	height: 100%;
+}
+.web-nav a{
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	padding-right: 20px; 
+	padding-top: 12%;
+	display: inline-block;
+}
+
+.site-content{
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	left: 400px;
+}
+.bbox{
+  background-color:#86aa5e;
+  width: 300px;
+  border: 50px solid #233313 ;
+  padding:100px;
+  margin: 100px;
+
+}
